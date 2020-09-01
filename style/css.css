@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+	font-family: 'OpenSans-Regular';
+	font-size: 25px;
+}
+
+.block {
+margin-right: 15px;
+}
+
+.story{
+	display: flex;
+}
+.text {
+	max-width: 50%;
+	color: #070DF5;
+}
+
+.block__group {
+	margin-top: 5px;
+}
+.btn {
+	background-color: red;
+	color: #EAFF02;
+	margin-top: 15px;
+}
